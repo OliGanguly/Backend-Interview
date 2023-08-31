@@ -47,7 +47,20 @@ Cache concurrency Strategy
 Read-Only - data never changes
 read-write - lots of update on your entity , In provides consistency when mul obj trying to access the same data.
 non-strict-write- same as read-write, but does not provide consistency
-transactional- any cjanges in the cached entity will be committed or rollback in the same transaction
+transactional- any changes in the cached entity will be committed or rollback in the same transaction
+
+* dependency for ehcache in pom.xml
+* add property for hibernate - second level cache in application.properties
+@Entity 
+V@Cache(usage=READ.WRITE)
+
+Annotations
+@Entity
+@Table
+@Id
+@GeneratedValue
+@Column
+
 
 
 
