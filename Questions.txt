@@ -1,0 +1,56 @@
+1.ORM
+ORM tools allow developers to interact with databases using object-oriented programming paradigms rather than writing low-level SQL queries. This can make database programming more intuitive and less error, as well as allowing developers to work more efficiently and quickly.
+
+ORM tools provide features like automatic database schema generation, query building, and caching, which can help optimize application performance. Common ORM tools include Hibernate for Java, Django ORM for Python, and Entity Framework for .NET.
+
+Behind ORM working to store data in the database without u writing the Query
+Dont Focus on database query more focus on code
+
+Object name:"oli", ----------> ORM TOOL ------------>DB id:556
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2. /*
+    * Person - parent
+    * Adrress- child
+    * fetch - fetch type , do u want to child entities eagerly or lazy way
+    * when I will be fetching data from parent table , child table data automatically fetch or not
+    * which we defined by fetch type
+    *
+    * cascade : Since we have a parent child relationship here,
+    * I need to tell my spring data jpa any operattion we will be doing in
+    * parent does that same cascaded to be child also
+    *
+    * targetEntity = Address.class
+    *
+    * */
+
+    @OneToOne(fetch = FetchType.EAGER , cascade = CascadeType.ALL , targetEntity = Address.class)
+    @JoinColumn(name = "address_id" , referencedColumnName = "address_id",nullable = false)
+
+//////////////////////////////////////////////////////////////////////////////
+
+3.https://www.youtube.com/watch?v=fVDu0sF_wSA&ab_channel=Telusko 
+
+Hibernat caching
+Hibernate is ORM i.e. Object relational mapping tool.
+Hibernate caching decreases the number of database hits thereby reducing the time that will be consumed to serve the request.
+we have 1st level caching  which will be in the particular session i.e. every session will have its own first level cache and second level caching is used for multiple sessions to share data.
+
+Same User U1 Same Session S1 ---> All user req -> hit db fetch all user store it in cache memory [First Level cache]
+Same user U2 Diff Session s2---> Again Hit Database [Data is not available in the first level cache of session 2]
+Prevent that using Second level cache technique
+No matter how many sessions we have all of them share a shared cache.
+3rd party service provider eh-cache
+
+Cache concurrency Strategy
+Read-Only - data never changes
+read-write - lots of update on your entity , In provides consistency when mul obj trying to access the same data.
+non-strict-write- same as read-write, but does not provide consistency
+transactional- any cjanges in the cached entity will be committed or rollback in the same transaction
+
+
+
+
+
+
