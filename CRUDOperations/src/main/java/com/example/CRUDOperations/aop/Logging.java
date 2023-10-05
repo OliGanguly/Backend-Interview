@@ -86,4 +86,14 @@ public class Logging {
             throw new RuntimeException("Error Occured");
         }
     }
+
+//    @AfterThrowing(value = "execution(* *.*(..))",throwing = "e")
+//    public void logException(JoinPoint joinPoint , Exception e){
+//        log.error(joinPoint.getSignature() + "Error........"+ e.getMessage());
+//    }
+
+//    @AfterThrowing(pointcut = "execution (* * com..*(..)", throwing = "e")
+//    public void myAfterThrowing(JoinPoint joinPoint, Exception e) {
+//        System.out.println("IDS HABBENING");
+//    }
 }
