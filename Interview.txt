@@ -1,0 +1,9 @@
+So the server will store the session information in the database while you will only have the session id in a cookie, which is stored in the filesystem of your computer.
+
+Next time you request another page, your browser will automatically send a cookie containing your sessionId, which the server will check to see if it is valid. 
+
+The session-ID is randomly generated and should be hard to guess. If you log out, the session will be deleted on the server, but also the server will instruct the browser to delete the cookie containing the session-ID.
+
+An alternative to this is to store information on the client and sign it. In this scenario, anyone holding the signature can quickly check if the data was manipulated or not. One way to do this is to use JSON Web Tokens (JWT tokens).
+
+Let's now assume that you want to install an app on your phone, which can help you with your finances and keep track of your spendings. What you don't want to do is to give your username and password to this app, which was not created by your bank. This is when access tokens are being used to grant access to your data. 

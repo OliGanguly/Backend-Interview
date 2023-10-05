@@ -1,0 +1,198 @@
+OneToOne
+PERSON
+pr name    email             mid
+1  Prachi  prachi@gmail.com  101
+
+Mobile
+mid  name        com
+101 iphone-15   Apple
+102 iphone-14   Apple
+103 iphone-15   Apple+
+
+Code
+@Entity
+class person{
+@Id
+private int pr;
+private String name;
+private String email;
+@OneToOne
+private Mobile mobile;
+}
+
+@Entity
+class Mobile{
+@Id
+private int id;
+private String name;
+private String com;
+}
+---------------------------------------------------
+OneToMany
+
+PERSON
+
+Wrong Concept
+pr is Primary Key
+pr name    email             lid
+1  Prachi  prachi@gmail.com  101
+1  Prachi  prachi@gmail.com  102
+
+
+Correct
+1.person
+pr name    email            
+1  Prachi  prachi@gmail.com  
+2  Oli       oli@123  
+
+2.laptop
+Laptop
+Lid Lname  pr
+101 Dell   1
+102  Hp    1
+103  Mac   2
+
+Extra table
+3.person_laptop
+pr lid 
+1   101
+1   102
+2   103 
+
+@Entity
+class person{
+@Id
+private int pr;
+private String name;
+private String email;
+@OneToMany(mappedBy="p_id")//please dont create a extra table, my mapping is done by Laptop
+private List<Laptop> laptops;
+}
+
+@Entity
+Class Laptop{
+  @Id
+  @GenearatedValue(Strategy=GenerationType.Auto)
+ int lid;
+ String lanme;
+ //to let code know I dont want a extra table please compose things for me
+//look at laptop table which is having entry of person
+ @ManyToOne
+ private Person p_id;
+}
+
+///ORM///
+
+
+
+JAVA      TOOL                 DB
+          (ORM)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Laptop
+lid
+name
+
+101 hp
+102 dell
+103 Mac
+
+Person
+@Id
+roll
+name
+@OneToMany
+List<Laptop> laptops;
+
+1 Oli 101,102,103 = wrong
+
+Pk
+1 Oli 101
+1 Oli 102 === wrong
+
+Laptop
+101 hp
+102 dell
+103 Mac
+-------
+Person
+1 Oli
+------
+Student_Laptop
+roll lid
+1     101
+1     102
+2     103 
+
+------------------------------
+By I dont want the 3rd table to be generated
+Student_Laptop
+roll lid
+1     101
+1     102
+1     103 
+
+Laptop      
+101 hp
+102 dell
+103 Mac
+
+Person
+1 Oli
+2 Amit
+
+Modify my laptop table How?
+
+Roll lid lname
+  1  101   hp
+  1  102   dell
+  2  103   mac 
+
+@entity
+Student{
+@OneToMany(mappedby="stud")
+List<Laptop> laptops;
+}
+
+@Entity
+Laptop{
+@ManyToOne
+Private Student stud;
+}
+---------------
+{
+    "name":"Piyali",
+    "funnyName":"pilayli",
+    "studentPermit":{
+        "permitName":"Not Valid"
+    },
+    "laptop":{
+        "name":"Hp"
+    },
+    "reviews":[
+        {
+            "review":"Good",
+            "programName":"Video Game"
+        }
+    ]
+}

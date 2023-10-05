@@ -22,8 +22,8 @@ import lombok.Setter;
 public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-private int emp_id;
-private String name;
+    private int emp_id;
+    private String name;
 
 
 }
