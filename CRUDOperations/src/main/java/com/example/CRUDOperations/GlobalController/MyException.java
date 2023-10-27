@@ -18,24 +18,24 @@ import com.example.CRUDOperations.customeException.EmptyInputException;
  * ControllerAdvice - handle exception globally
  * use multiple method over here to handle exception
  * */
-@ControllerAdvice
+//@ControllerAdvice
 public class MyException extends ResponseEntityExceptionHandler {
-	//if controller is not able to handle exception please send a good message
-	
-	@ExceptionHandler(EmptyInputException.class)
-	public ResponseEntity<String> handleEmptyInput(EmptyInputException emptyInputException){
-		return new ResponseEntity<String>("Input Field is empty",HttpStatus.BAD_REQUEST);
-	}
-	
-	@ExceptionHandler(NoSuchElementException.class)
-	public ResponseEntity<String> handleNoSuchElementException(NoSuchElementException noSuchElementException){
-		return new ResponseEntity<String>("No value is present in DB , Please change your request",HttpStatus.NOT_FOUND);
-	}
-	@Override
-	protected ResponseEntity<Object> handleHttpMediaTypeNotSupported(HttpMediaTypeNotSupportedException ex,
-			HttpHeaders headers, HttpStatusCode status, WebRequest request) {
-		// TODO Auto-generated method stub
-		return new ResponseEntity<Object>("Method Not allowed, Please change your Http Method Type",HttpStatus.METHOD_FAILURE);
-	}
-
+//	//if controller is not able to handle exception please send a good message
+//
+//	@ExceptionHandler(EmptyInputException.class)
+//	public ResponseEntity<String> handleEmptyInput(EmptyInputException emptyInputException){
+//		return new ResponseEntity<String>("Input Field is empty",HttpStatus.BAD_REQUEST);
+//	}
+//
+//	@ExceptionHandler(NoSuchElementException.class)
+//	public ResponseEntity<String> handleNoSuchElementException(NoSuchElementException noSuchElementException){
+//		return new ResponseEntity<String>("No value is present in DB , Please change your request",HttpStatus.NOT_FOUND);
+//	}
+//	@Override
+//	protected ResponseEntity<Object> handleHttpMediaTypeNotSupported(HttpMediaTypeNotSupportedException ex,
+//			HttpHeaders headers, HttpStatusCode status, WebRequest request) {
+//		// TODO Auto-generated method stub
+//		return new ResponseEntity<Object>("Method Not allowed, Please change your Http Method Type",HttpStatus.METHOD_FAILURE);
+//	}
+//
 }

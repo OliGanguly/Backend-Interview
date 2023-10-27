@@ -1,0 +1,900 @@
+2023-10-11 10:43:45,073 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 1776 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 10:43:45,077 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 10:43:45,858 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 10:43:45,939 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2023-10-11 10:43:46,863 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 10:43:46,872 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:43:46,876 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 10:43:46,877 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 10:43:46,995 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 10:43:46,996 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1856 ms
+2023-10-11 10:43:47,312 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 10:43:47,418 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 10:43:47,421 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 10:43:47,561 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:43:47,687 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 10:43:47,704 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 10:43:48,182 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c030fe1
+2023-10-11 10:43:48,184 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 10:43:48,234 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 10:43:48,421 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:43:48,909 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 10:43:48,999 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:43:49,589 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 10:43:50,077 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:43:50,113 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 10:43:50,125 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 5.423 seconds (process running for 6.162)
+2023-10-11 10:44:21,709 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 10:44:21,709 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-11 10:44:21,710 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Completed initialization in 0 ms
+2023-10-11 10:46:15,991 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:46:15,993 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 10:46:16,000 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 10:46:19,197 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 30224 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 10:46:19,199 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 10:46:19,958 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 10:46:20,015 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2023-10-11 10:46:20,956 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 10:46:20,970 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:46:20,977 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 10:46:20,978 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 10:46:21,116 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 10:46:21,118 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1871 ms
+2023-10-11 10:46:21,459 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 10:46:21,590 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 10:46:21,594 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 10:46:21,731 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:46:21,833 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 10:46:21,846 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 10:46:22,128 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@30133a11
+2023-10-11 10:46:22,131 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 10:46:22,168 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 10:46:22,354 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:46:22,815 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 10:46:22,865 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:46:23,408 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swagger2Controller': Lookup method resolution failed
+2023-10-11 10:46:23,409 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:46:23,431 INFO c.z.h.HikariDataSource [main] employee - Shutdown initiated...
+2023-10-11 10:46:23,441 INFO c.z.h.HikariDataSource [main] employee - Shutdown completed.
+2023-10-11 10:46:23,444 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-10-11 10:46:23,458 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-11 10:46:23,482 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swagger2Controller': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:472)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:342)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1186)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.CRUDOperations.CrudOperationsApplication.main(CrudOperationsApplication.java:13)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.swagger2.web.Swagger2Controller] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:450)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 25 common frames omitted
+2023-10-11 10:47:58,674 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 28148 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 10:47:58,677 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 10:47:59,522 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 10:47:59,578 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2023-10-11 10:48:00,493 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 10:48:00,508 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:48:00,514 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 10:48:00,515 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 10:48:00,653 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 10:48:00,655 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1921 ms
+2023-10-11 10:48:00,939 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 10:48:01,004 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 10:48:01,006 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 10:48:01,113 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:48:01,211 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 10:48:01,225 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 10:48:01,478 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@54a6ef6
+2023-10-11 10:48:01,479 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 10:48:01,512 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 10:48:01,671 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:48:02,138 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 10:48:02,185 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:48:02,729 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swagger2Controller': Lookup method resolution failed
+2023-10-11 10:48:02,729 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:48:02,733 INFO c.z.h.HikariDataSource [main] employee - Shutdown initiated...
+2023-10-11 10:48:02,742 INFO c.z.h.HikariDataSource [main] employee - Shutdown completed.
+2023-10-11 10:48:02,744 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-10-11 10:48:02,757 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-11 10:48:02,780 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swagger2Controller': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:472)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:342)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1186)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.CRUDOperations.CrudOperationsApplication.main(CrudOperationsApplication.java:13)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.swagger2.web.Swagger2Controller] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:450)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 25 common frames omitted
+2023-10-11 10:50:27,590 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 8744 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 10:50:27,593 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 10:50:28,389 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 10:50:28,441 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2023-10-11 10:50:29,618 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 10:50:29,631 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:50:29,638 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 10:50:29,639 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 10:50:29,780 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 10:50:29,782 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2137 ms
+2023-10-11 10:50:30,065 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 10:50:30,136 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 10:50:30,138 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 10:50:30,270 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:50:30,382 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 10:50:30,394 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 10:50:30,650 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@54a6ef6
+2023-10-11 10:50:30,652 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 10:50:30,685 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 10:50:30,856 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:50:31,314 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 10:50:31,364 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:50:31,958 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swagger2Controller': Lookup method resolution failed
+2023-10-11 10:50:31,959 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:50:31,964 INFO c.z.h.HikariDataSource [main] employee - Shutdown initiated...
+2023-10-11 10:50:31,978 INFO c.z.h.HikariDataSource [main] employee - Shutdown completed.
+2023-10-11 10:50:31,983 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-10-11 10:50:31,997 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-11 10:50:32,020 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swagger2Controller': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:472)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:342)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1186)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.CRUDOperations.CrudOperationsApplication.main(CrudOperationsApplication.java:13)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.swagger2.web.Swagger2Controller] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:450)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 25 common frames omitted
+2023-10-11 10:54:02,545 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 6836 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 10:54:02,547 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 10:54:03,255 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 10:54:03,325 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2023-10-11 10:54:04,258 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 10:54:04,270 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:54:04,275 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 10:54:04,276 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 10:54:04,414 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 10:54:04,417 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1820 ms
+2023-10-11 10:54:04,726 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 10:54:04,855 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 10:54:04,858 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 10:54:05,015 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:54:05,128 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 10:54:05,143 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 10:54:05,435 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@386e9fd8
+2023-10-11 10:54:05,437 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 10:54:05,477 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 10:54:05,696 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:54:06,174 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 10:54:06,227 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:54:06,885 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 10:54:07,451 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:54:07,484 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 10:54:07,496 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 5.313 seconds (process running for 5.925)
+2023-10-11 10:54:18,945 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 10:54:18,946 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-11 10:54:18,946 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Completed initialization in 0 ms
+2023-10-11 10:55:29,813 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:55:29,814 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 10:55:29,820 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 10:55:31,460 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 28288 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 10:55:31,462 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 10:55:31,988 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 10:55:32,048 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2023-10-11 10:55:32,792 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 10:55:32,802 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:55:32,805 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 10:55:32,806 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 10:55:32,927 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 10:55:32,928 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1422 ms
+2023-10-11 10:55:33,231 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 10:55:33,282 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 10:55:33,284 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 10:55:33,405 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:55:33,502 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 10:55:33,515 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 10:55:33,762 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@763b0996
+2023-10-11 10:55:33,764 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 10:55:33,797 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 10:55:33,971 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:55:34,420 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 10:55:34,466 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:55:35,046 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 10:55:35,523 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:55:35,561 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 10:55:35,569 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.387 seconds (process running for 4.874)
+2023-10-11 10:55:39,937 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 10:55:39,937 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-11 10:55:39,938 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Completed initialization in 1 ms
+2023-10-11 10:55:56,101 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:55:56,103 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 10:55:56,109 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 10:55:58,794 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 18224 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 10:55:58,797 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 10:55:59,340 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 10:55:59,406 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2023-10-11 10:56:00,139 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 10:56:00,151 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:56:00,155 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 10:56:00,156 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 10:56:00,287 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 10:56:00,290 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1452 ms
+2023-10-11 10:56:00,580 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 10:56:00,646 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 10:56:00,649 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 10:56:00,777 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:56:00,872 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 10:56:00,885 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 10:56:01,130 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@386e9fd8
+2023-10-11 10:56:01,132 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 10:56:01,165 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 10:56:01,342 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 10:56:01,804 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 10:56:01,855 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 10:56:02,530 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 10:56:03,005 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 10:56:03,032 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 10:56:03,040 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.538 seconds (process running for 5.022)
+2023-10-11 10:56:03,259 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 10:56:03,259 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-11 10:56:03,261 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2023-10-11 11:20:42,841 WARN c.z.h.p.HikariPool$HouseKeeper [employee housekeeper] employee - Thread starvation or clock leap detected (housekeeper delta=4m41s278ms953µs400ns).
+2023-10-11 13:47:54,943 WARN c.z.h.p.HikariPool$HouseKeeper [employee housekeeper] employee - Thread starvation or clock leap detected (housekeeper delta=19m10s123ms914µs100ns).
+2023-10-11 16:29:01,271 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:29:01,288 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 16:29:01,295 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 16:29:03,510 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 12304 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 16:29:03,512 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 16:29:04,135 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 16:29:04,221 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2023-10-11 16:29:05,016 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 16:29:05,025 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:29:05,030 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 16:29:05,031 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 16:29:05,170 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 16:29:05,173 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1613 ms
+2023-10-11 16:29:05,490 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 16:29:05,615 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 16:29:05,617 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 16:29:05,752 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:29:05,866 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 16:29:05,882 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 16:29:06,211 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d798e76
+2023-10-11 16:29:06,213 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 16:29:06,256 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 16:29:06,472 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:29:06,962 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 16:29:07,016 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:29:07,609 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 16:29:08,095 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:29:08,134 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 16:29:08,145 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.952 seconds (process running for 5.606)
+2023-10-11 16:33:26,337 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:33:26,339 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 16:33:26,348 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 16:33:29,537 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 3300 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 16:33:29,540 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 16:33:30,175 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 16:33:30,243 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2023-10-11 16:33:30,998 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 16:33:31,009 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:33:31,013 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 16:33:31,014 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 16:33:31,138 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 16:33:31,140 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1548 ms
+2023-10-11 16:33:31,464 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 16:33:31,554 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 16:33:31,556 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 16:33:31,707 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:33:31,816 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 16:33:31,831 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 16:33:32,106 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@70d5d96b
+2023-10-11 16:33:32,108 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 16:33:32,141 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 16:33:32,334 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:33:32,849 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 16:33:32,940 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:33:33,552 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 16:33:34,075 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:33:34,111 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 16:33:34,121 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.895 seconds (process running for 5.387)
+2023-10-11 16:46:41,517 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:46:41,519 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 16:46:41,526 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 16:46:44,978 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 14452 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 16:46:44,980 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 16:46:45,551 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 16:46:45,614 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2023-10-11 16:46:46,374 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 16:46:46,383 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:46:46,388 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 16:46:46,389 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 16:46:46,536 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 16:46:46,539 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1515 ms
+2023-10-11 16:46:46,819 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 16:46:46,883 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 16:46:46,886 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 16:46:47,030 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:46:47,148 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 16:46:47,164 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 16:46:47,451 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@59d5c537
+2023-10-11 16:46:47,453 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 16:46:47,490 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 16:46:47,732 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:46:48,231 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 16:46:48,278 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:46:48,878 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 16:46:49,353 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:46:49,389 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 16:46:49,399 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.72 seconds (process running for 5.245)
+2023-10-11 16:51:25,370 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:51:25,372 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 16:51:25,378 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 16:51:28,134 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 8184 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 16:51:28,137 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 16:51:28,727 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 16:51:28,793 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2023-10-11 16:51:29,533 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 16:51:29,542 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:51:29,547 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 16:51:29,547 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 16:51:29,664 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 16:51:29,665 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1485 ms
+2023-10-11 16:51:30,001 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 16:51:30,092 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 16:51:30,094 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 16:51:30,241 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:51:30,388 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 16:51:30,405 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 16:51:30,728 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f07930a
+2023-10-11 16:51:30,730 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 16:51:30,782 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 16:51:30,992 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:51:31,461 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 16:51:31,507 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:51:32,114 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 16:51:32,600 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:51:32,632 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 16:51:32,643 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.798 seconds (process running for 5.298)
+2023-10-11 16:53:49,871 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 16:53:49,872 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-11 16:53:49,873 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Completed initialization in 1 ms
+2023-10-11 16:53:49,971 INFO c.e.C.a.Logging [http-nio-8082-exec-1] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:53:49,972 INFO c.e.C.a.Logging [http-nio-8082-exec-1] ResponseEntity com.example.CRUDOperations.controller.UserController.save(UserRequest)Method execution Start
+2023-10-11 16:53:49,973 INFO c.e.C.a.Logging [http-nio-8082-exec-1] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:53:49,973 INFO c.e.C.a.Logging [http-nio-8082-exec-1] User com.example.CRUDOperations.service.UserService.addUser(UserRequest)Method execution Start
+2023-10-11 16:53:49,977 INFO c.e.C.a.Logging [http-nio-8082-exec-1] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:53:49,977 INFO c.e.C.a.Logging [http-nio-8082-exec-1] Object org.springframework.data.repository.CrudRepository.save(Object)Method execution Start
+2023-10-11 16:53:50,035 INFO c.e.C.a.Logging [http-nio-8082-exec-1] Time Took to execute Object org.springframework.data.repository.CrudRepository.save(Object)method is : 56
+2023-10-11 16:53:50,036 INFO c.e.C.a.Logging [http-nio-8082-exec-1] Method execution end
+2023-10-11 16:53:50,036 INFO c.e.C.a.Logging [http-nio-8082-exec-1] Time Took to execute User com.example.CRUDOperations.service.UserService.addUser(UserRequest)method is : 63
+2023-10-11 16:53:50,036 INFO c.e.C.a.Logging [http-nio-8082-exec-1] Method execution end
+2023-10-11 16:53:50,038 INFO c.e.C.a.Logging [http-nio-8082-exec-1] Time Took to execute ResponseEntity com.example.CRUDOperations.controller.UserController.save(UserRequest)method is : 64
+2023-10-11 16:53:50,038 INFO c.e.C.a.Logging [http-nio-8082-exec-1] Method execution end
+2023-10-11 16:54:05,304 INFO c.e.C.a.Logging [http-nio-8082-exec-4] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:05,304 INFO c.e.C.a.Logging [http-nio-8082-exec-4] ResponseEntity com.example.CRUDOperations.controller.UserController.save(UserRequest)Method execution Start
+2023-10-11 16:54:05,304 INFO c.e.C.a.Logging [http-nio-8082-exec-4] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:05,305 INFO c.e.C.a.Logging [http-nio-8082-exec-4] User com.example.CRUDOperations.service.UserService.addUser(UserRequest)Method execution Start
+2023-10-11 16:54:05,305 INFO c.e.C.a.Logging [http-nio-8082-exec-4] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:05,305 INFO c.e.C.a.Logging [http-nio-8082-exec-4] Object org.springframework.data.repository.CrudRepository.save(Object)Method execution Start
+2023-10-11 16:54:05,313 INFO c.e.C.a.Logging [http-nio-8082-exec-4] Time Took to execute Object org.springframework.data.repository.CrudRepository.save(Object)method is : 8
+2023-10-11 16:54:05,313 INFO c.e.C.a.Logging [http-nio-8082-exec-4] Method execution end
+2023-10-11 16:54:05,313 INFO c.e.C.a.Logging [http-nio-8082-exec-4] Time Took to execute User com.example.CRUDOperations.service.UserService.addUser(UserRequest)method is : 8
+2023-10-11 16:54:05,313 INFO c.e.C.a.Logging [http-nio-8082-exec-4] Method execution end
+2023-10-11 16:54:05,314 INFO c.e.C.a.Logging [http-nio-8082-exec-4] Time Took to execute ResponseEntity com.example.CRUDOperations.controller.UserController.save(UserRequest)method is : 10
+2023-10-11 16:54:05,314 INFO c.e.C.a.Logging [http-nio-8082-exec-4] Method execution end
+2023-10-11 16:54:13,405 INFO c.e.C.a.Logging [http-nio-8082-exec-3] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:13,406 INFO c.e.C.a.Logging [http-nio-8082-exec-3] ResponseEntity com.example.CRUDOperations.controller.UserController.getall()Method execution Start
+2023-10-11 16:54:13,406 INFO c.e.C.a.Logging [http-nio-8082-exec-3] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:13,407 INFO c.e.C.a.Logging [http-nio-8082-exec-3] List com.example.CRUDOperations.service.UserService.getAllUser()Method execution Start
+2023-10-11 16:54:13,511 INFO c.e.C.a.Logging [http-nio-8082-exec-3] Time Took to execute List com.example.CRUDOperations.service.UserService.getAllUser()method is : 104
+2023-10-11 16:54:13,511 INFO c.e.C.a.Logging [http-nio-8082-exec-3] Method execution end
+2023-10-11 16:54:13,512 INFO c.e.C.a.Logging [http-nio-8082-exec-3] Time Took to execute ResponseEntity com.example.CRUDOperations.controller.UserController.getall()method is : 106
+2023-10-11 16:54:13,512 INFO c.e.C.a.Logging [http-nio-8082-exec-3] Method execution end
+2023-10-11 16:54:20,800 INFO c.e.C.a.Logging [http-nio-8082-exec-5] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:20,800 INFO c.e.C.a.Logging [http-nio-8082-exec-5] ResponseEntity com.example.CRUDOperations.controller.UserController.getOne(int)Method execution Start
+2023-10-11 16:54:20,800 INFO c.e.C.a.Logging [http-nio-8082-exec-5] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:20,800 INFO c.e.C.a.Logging [http-nio-8082-exec-5] User com.example.CRUDOperations.service.UserService.getSingleUser(int)Method execution Start
+2023-10-11 16:54:20,801 INFO c.e.C.a.Logging [http-nio-8082-exec-5] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:20,801 INFO c.e.C.a.Logging [http-nio-8082-exec-5] Optional org.springframework.data.repository.CrudRepository.findById(Object)Method execution Start
+2023-10-11 16:54:20,812 INFO c.e.C.a.Logging [http-nio-8082-exec-5] Time Took to execute Optional org.springframework.data.repository.CrudRepository.findById(Object)method is : 10
+2023-10-11 16:54:20,813 INFO c.e.C.a.Logging [http-nio-8082-exec-5] Method execution end
+2023-10-11 16:54:20,813 INFO c.e.C.a.Logging [http-nio-8082-exec-5] Time Took to execute User com.example.CRUDOperations.service.UserService.getSingleUser(int)method is : 12
+2023-10-11 16:54:20,813 INFO c.e.C.a.Logging [http-nio-8082-exec-5] Method execution end
+2023-10-11 16:54:20,813 INFO c.e.C.a.Logging [http-nio-8082-exec-5] Time Took to execute ResponseEntity com.example.CRUDOperations.controller.UserController.getOne(int)method is : 13
+2023-10-11 16:54:20,813 INFO c.e.C.a.Logging [http-nio-8082-exec-5] Method execution end
+2023-10-11 16:54:24,820 INFO c.e.C.a.Logging [http-nio-8082-exec-6] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:24,820 INFO c.e.C.a.Logging [http-nio-8082-exec-6] ResponseEntity com.example.CRUDOperations.controller.UserController.getOne(int)Method execution Start
+2023-10-11 16:54:24,820 INFO c.e.C.a.Logging [http-nio-8082-exec-6] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:24,820 INFO c.e.C.a.Logging [http-nio-8082-exec-6] User com.example.CRUDOperations.service.UserService.getSingleUser(int)Method execution Start
+2023-10-11 16:54:24,820 INFO c.e.C.a.Logging [http-nio-8082-exec-6] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:24,820 INFO c.e.C.a.Logging [http-nio-8082-exec-6] Optional org.springframework.data.repository.CrudRepository.findById(Object)Method execution Start
+2023-10-11 16:54:24,824 INFO c.e.C.a.Logging [http-nio-8082-exec-6] Time Took to execute Optional org.springframework.data.repository.CrudRepository.findById(Object)method is : 4
+2023-10-11 16:54:24,824 INFO c.e.C.a.Logging [http-nio-8082-exec-6] Method execution end
+2023-10-11 16:54:24,825 INFO c.e.C.a.Logging [http-nio-8082-exec-6] User Not Foundoccured
+2023-10-11 16:54:24,825 INFO c.e.C.a.Logging [http-nio-8082-exec-6] Error Occuredoccured
+2023-10-11 16:54:24,827 ERROR o.a.j.l.DirectJDKLog [http-nio-8082-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Error Occured] with root cause
+java.lang.RuntimeException: Error Occured
+	at com.example.CRUDOperations.aop.Logging.globalLogging(Logging.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.CRUDOperations.controller.UserController$$SpringCGLIB$$0.getOne(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 16:54:38,540 INFO c.e.C.a.Logging [http-nio-8082-exec-8] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:38,540 INFO c.e.C.a.Logging [http-nio-8082-exec-8] ResponseEntity com.example.CRUDOperations.controller.UserController.getOne(int)Method execution Start
+2023-10-11 16:54:38,541 INFO c.e.C.a.Logging [http-nio-8082-exec-8] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:38,541 INFO c.e.C.a.Logging [http-nio-8082-exec-8] User com.example.CRUDOperations.service.UserService.getSingleUser(int)Method execution Start
+2023-10-11 16:54:38,541 INFO c.e.C.a.Logging [http-nio-8082-exec-8] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:54:38,541 INFO c.e.C.a.Logging [http-nio-8082-exec-8] Optional org.springframework.data.repository.CrudRepository.findById(Object)Method execution Start
+2023-10-11 16:54:38,545 INFO c.e.C.a.Logging [http-nio-8082-exec-8] Time Took to execute Optional org.springframework.data.repository.CrudRepository.findById(Object)method is : 3
+2023-10-11 16:54:38,546 INFO c.e.C.a.Logging [http-nio-8082-exec-8] Method execution end
+2023-10-11 16:54:38,546 INFO c.e.C.a.Logging [http-nio-8082-exec-8] Time Took to execute User com.example.CRUDOperations.service.UserService.getSingleUser(int)method is : 4
+2023-10-11 16:54:38,546 INFO c.e.C.a.Logging [http-nio-8082-exec-8] Method execution end
+2023-10-11 16:54:38,546 INFO c.e.C.a.Logging [http-nio-8082-exec-8] Time Took to execute ResponseEntity com.example.CRUDOperations.controller.UserController.getOne(int)method is : 5
+2023-10-11 16:54:38,546 INFO c.e.C.a.Logging [http-nio-8082-exec-8] Method execution end
+2023-10-11 16:54:59,729 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:54:59,731 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 16:54:59,736 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 16:55:11,563 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 16212 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 16:55:11,566 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 16:55:12,083 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 16:55:12,146 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2023-10-11 16:55:12,864 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 16:55:12,872 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:55:12,875 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 16:55:12,875 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 16:55:12,983 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 16:55:12,984 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1375 ms
+2023-10-11 16:55:13,280 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 16:55:13,373 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 16:55:13,377 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 16:55:13,508 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:55:13,600 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 16:55:13,613 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 16:55:13,865 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f7336b2
+2023-10-11 16:55:13,867 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 16:55:13,900 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 16:55:14,071 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:55:14,535 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 16:55:14,586 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:55:15,192 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 16:55:15,680 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:55:15,707 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 16:55:15,716 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.436 seconds (process running for 4.899)
+2023-10-11 16:55:20,588 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 16:55:20,589 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-11 16:55:20,590 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2023-10-11 16:55:20,632 INFO c.e.C.a.Logging [http-nio-8082-exec-2] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:55:20,634 INFO c.e.C.a.Logging [http-nio-8082-exec-2] ResponseEntity com.example.CRUDOperations.controller.UserController.getOne(int)Method execution Start
+2023-10-11 16:55:20,635 INFO c.e.C.a.Logging [http-nio-8082-exec-2] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:55:20,636 INFO c.e.C.a.Logging [http-nio-8082-exec-2] User com.example.CRUDOperations.service.UserService.getSingleUser(int)Method execution Start
+2023-10-11 16:55:20,642 INFO c.e.C.a.Logging [http-nio-8082-exec-2] //////////////////////////////////////////////////////////////////////////////////////////////////////
+2023-10-11 16:55:20,643 INFO c.e.C.a.Logging [http-nio-8082-exec-2] Optional org.springframework.data.repository.CrudRepository.findById(Object)Method execution Start
+2023-10-11 16:55:20,696 INFO c.e.C.a.Logging [http-nio-8082-exec-2] Time Took to execute Optional org.springframework.data.repository.CrudRepository.findById(Object)method is : 52
+2023-10-11 16:55:20,697 INFO c.e.C.a.Logging [http-nio-8082-exec-2] Method execution end
+2023-10-11 16:55:20,698 INFO c.e.C.a.Logging [http-nio-8082-exec-2] User Not Foundoccured
+2023-10-11 16:55:20,699 INFO c.e.C.a.Logging [http-nio-8082-exec-2] Error Occuredoccured
+2023-10-11 16:55:20,702 ERROR o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Error Occured] with root cause
+java.lang.RuntimeException: Error Occured
+	at com.example.CRUDOperations.aop.Logging.globalLogging(Logging.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.CRUDOperations.controller.UserController$$SpringCGLIB$$0.getOne(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 16:56:16,328 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:56:16,330 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 16:56:16,336 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 16:56:19,079 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 23676 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 16:56:19,082 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 16:56:19,623 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 16:56:19,686 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2023-10-11 16:56:20,245 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 16:56:20,252 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:56:20,255 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 16:56:20,255 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 16:56:20,350 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 16:56:20,351 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1224 ms
+2023-10-11 16:56:20,537 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 16:56:20,600 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 16:56:20,602 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 16:56:20,720 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:56:20,813 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 16:56:20,829 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 16:56:21,087 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@4beae1e3
+2023-10-11 16:56:21,089 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 16:56:21,127 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 16:56:21,310 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:56:21,833 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 16:56:21,882 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:56:22,220 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 16:56:22,522 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:56:22,551 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 16:56:22,561 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 3.776 seconds (process running for 4.25)
+2023-10-11 16:56:26,130 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 16:56:26,131 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-11 16:56:26,132 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2023-10-11 16:56:26,207 ERROR o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.CRUDOperations.customeException.UserNotFoundException: User Not Found] with root cause
+com.example.CRUDOperations.customeException.UserNotFoundException: User Not Found
+	at com.example.CRUDOperations.service.UserService.lambda$getSingleUser$0(UserService.java:33)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.example.CRUDOperations.service.UserService.getSingleUser(UserService.java:33)
+	at com.example.CRUDOperations.controller.UserController.getOne(UserController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 16:57:06,062 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:57:06,063 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 16:57:06,069 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 16:57:08,820 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 18812 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 16:57:08,823 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 16:57:09,342 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 16:57:09,410 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2023-10-11 16:57:09,937 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 16:57:09,942 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:57:09,944 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 16:57:09,945 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 16:57:10,037 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 16:57:10,038 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1172 ms
+2023-10-11 16:57:10,208 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 16:57:10,283 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 16:57:10,286 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 16:57:10,399 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:57:10,495 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 16:57:10,511 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 16:57:10,746 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@4beae1e3
+2023-10-11 16:57:10,748 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 16:57:10,781 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 16:57:10,953 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 16:57:11,444 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 16:57:11,501 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 16:57:11,837 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 16:57:12,139 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 16:57:12,169 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 16:57:12,177 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 3.653 seconds (process running for 4.123)
+2023-10-11 16:57:16,706 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 16:57:16,707 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-11 16:57:16,708 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2023-10-11 16:57:16,789 ERROR o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.CRUDOperations.customeException.UserNotFoundException: This User Not Found] with root cause
+com.example.CRUDOperations.customeException.UserNotFoundException: This User Not Found
+	at com.example.CRUDOperations.service.UserService.lambda$getSingleUser$0(UserService.java:33)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.example.CRUDOperations.service.UserService.getSingleUser(UserService.java:33)
+	at com.example.CRUDOperations.controller.UserController.getOne(UserController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 17:01:03,743 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 17:01:03,746 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 17:01:03,751 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-11 17:01:06,573 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 4872 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-11 17:01:06,575 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-11 17:01:07,075 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11 17:01:07,139 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2023-10-11 17:01:07,699 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-11 17:01:07,707 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-11 17:01:07,710 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-11 17:01:07,711 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-11 17:01:07,810 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-11 17:01:07,811 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1195 ms
+2023-10-11 17:01:08,057 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11 17:01:08,111 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-11 17:01:08,113 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-11 17:01:08,231 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 17:01:08,323 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11 17:01:08,339 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-11 17:01:08,612 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@4beae1e3
+2023-10-11 17:01:08,614 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-11 17:01:08,651 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11 17:01:08,837 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-11 17:01:09,400 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11 17:01:09,450 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 17:01:09,742 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11 17:01:10,041 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-11 17:01:10,068 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-11 17:01:10,078 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 3.789 seconds (process running for 4.256)
+2023-10-11 17:01:34,387 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11 17:01:34,388 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-11 17:01:34,395 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.

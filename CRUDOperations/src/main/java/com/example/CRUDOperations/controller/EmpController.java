@@ -51,6 +51,7 @@ public class EmpController {
 	}*/
 	@PostMapping("/save")
 	public ResponseEntity<?> createEmp(@RequestBody Employee employee) throws Exception{
+
 		Employee emp = empService.addEmp(employee);
 		return new ResponseEntity<Employee>(emp,HttpStatus.CREATED);	
 	}

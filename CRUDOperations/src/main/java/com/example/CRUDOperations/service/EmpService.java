@@ -43,13 +43,13 @@ public class EmpService {
 //	@Transactional
     public Employee addEmp(Employee employee) throws Exception{
 		//do put validation in try block
-//		if(employee.getName().isEmpty()||employee.getName().length()==0) {
-//			throw new EmptyInputException("601","Inputs are Empty");
-//		}
-  //After throwing Advice
-		if(employee.getName().length()<5){
-			throw new RuntimeException("Name should be more than 5 leength");
+		if(employee.getName().isEmpty()||employee.getName().length()<5) {
+			throw new EmptyInputException("601","Inputs are Empty");
 		}
+  //After throwing Advice
+//		if(employee.getName().length()<5){
+//			throw new RuntimeException("Name should be more than 5 leength");
+//		}
 		return empRepo.save(employee);
 
 //			Employee savedResult = empRepo.save(employee);

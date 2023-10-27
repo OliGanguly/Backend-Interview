@@ -1,0 +1,222 @@
+2023-10-12 11:48:28,992 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 11:48:29,051 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 5448 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-12 11:48:29,054 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 11:48:29,755 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12 11:48:29,826 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2023-10-12 11:48:30,478 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-12 11:48:30,494 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-12 11:48:30,497 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 11:48:30,498 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-12 11:48:30,616 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 11:48:30,618 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1518 ms
+2023-10-12 11:48:30,826 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 11:48:30,916 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-12 11:48:30,919 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-12 11:48:31,076 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 11:48:31,215 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12 11:48:31,232 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-12 11:48:31,805 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@19faedcc
+2023-10-12 11:48:31,807 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-12 11:48:31,869 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-12 11:48:32,072 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 11:48:32,654 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 11:48:32,776 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 11:48:33,100 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12 11:48:33,542 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-12 11:48:33,575 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-12 11:48:33,586 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.909 seconds (process running for 5.583)
+2023-10-12 11:49:19,905 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 11:49:19,905 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-12 11:49:19,906 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2023-10-12 11:49:19,932 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8082-exec-2] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-10-12 11:49:33,831 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8082-exec-3] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.CRUDOperations.entity.User> com.example.CRUDOperations.controller.UserController.save(com.example.CRUDOperations.dto.UserRequest): [Field error in object 'userRequest' on field 'mobile': rejected value [45679956]; codes [Pattern.userRequest.mobile,Pattern.mobile,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRequest.mobile,mobile]; arguments []; default message [mobile],[Ljakarta.validation.constraints.Pattern$Flag;@5808954c,^\d{10}$]; default message [Invalid Mobile Number]] ]
+2023-10-12 12:00:07,876 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:00:07,879 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-12 12:00:07,887 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-12 12:00:10,958 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 12:00:11,014 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 11516 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-12 12:00:11,016 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 12:00:11,672 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12 12:00:11,744 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2023-10-12 12:00:12,409 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-12 12:00:12,418 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:00:12,421 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 12:00:12,421 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-12 12:00:12,546 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 12:00:12,548 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1483 ms
+2023-10-12 12:00:12,734 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 12:00:12,823 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-12 12:00:12,826 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-12 12:00:12,949 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:00:13,068 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12 12:00:13,083 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-12 12:00:13,393 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@57416e49
+2023-10-12 12:00:13,395 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-12 12:00:13,434 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-12 12:00:13,613 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:00:14,152 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 12:00:14,209 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:00:14,526 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12 12:00:14,949 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:00:14,984 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-12 12:00:14,996 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.328 seconds (process running for 4.915)
+2023-10-12 12:00:22,209 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:00:22,211 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-12 12:00:22,217 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-12 12:00:25,174 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 12:00:25,229 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 9016 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-12 12:00:25,231 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 12:00:25,946 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12 12:00:26,020 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2023-10-12 12:00:26,635 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-12 12:00:26,642 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:00:26,645 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 12:00:26,646 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-12 12:00:26,758 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 12:00:26,759 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1476 ms
+2023-10-12 12:00:26,936 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 12:00:26,992 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-12 12:00:26,995 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-12 12:00:27,146 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:00:27,259 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12 12:00:27,274 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-12 12:00:27,587 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce655b9
+2023-10-12 12:00:27,589 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-12 12:00:27,629 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-12 12:00:27,810 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:00:28,347 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 12:00:28,406 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:00:28,711 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12 12:00:29,143 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:00:29,177 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-12 12:00:29,188 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.303 seconds (process running for 4.841)
+2023-10-12 12:00:34,014 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 12:00:34,015 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-12 12:00:34,017 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Completed initialization in 1 ms
+2023-10-12 12:32:55,544 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:32:55,546 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-12 12:32:55,550 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-12 12:32:58,804 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 12:32:58,856 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 10128 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-12 12:32:58,858 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 12:32:59,556 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12 12:32:59,638 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2023-10-12 12:33:00,286 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-12 12:33:00,294 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:33:00,297 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 12:33:00,298 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-12 12:33:00,423 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 12:33:00,425 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1523 ms
+2023-10-12 12:33:00,632 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 12:33:00,701 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-12 12:33:00,705 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-12 12:33:00,869 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:33:00,991 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12 12:33:01,007 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-12 12:33:01,323 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@59baf2c7
+2023-10-12 12:33:01,326 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-12 12:33:01,385 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-12 12:33:01,604 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:33:02,117 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 12:33:02,171 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:33:02,468 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12 12:33:02,863 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:33:02,897 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-12 12:33:02,907 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.431 seconds (process running for 5.175)
+2023-10-12 12:36:25,544 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:36:25,546 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-12 12:36:25,552 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-12 12:36:28,761 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 12:36:28,818 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 25676 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-12 12:36:28,820 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 12:36:29,461 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12 12:36:29,531 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2023-10-12 12:36:30,150 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-12 12:36:30,158 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:36:30,160 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 12:36:30,161 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-12 12:36:30,265 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 12:36:30,267 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1395 ms
+2023-10-12 12:36:30,456 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 12:36:30,535 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-12 12:36:30,538 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-12 12:36:30,708 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:36:30,838 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12 12:36:30,854 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-12 12:36:31,210 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce655b9
+2023-10-12 12:36:31,214 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-12 12:36:31,270 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-12 12:36:31,448 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:36:31,959 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 12:36:32,021 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:36:32,344 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12 12:36:32,784 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:36:32,822 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-12 12:36:32,831 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.367 seconds (process running for 4.914)
+2023-10-12 12:36:35,736 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 12:36:35,737 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-12 12:36:35,740 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-2] Completed initialization in 2 ms
+2023-10-12 12:36:54,512 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:36:54,514 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-12 12:36:54,520 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-12 12:36:57,282 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 12:36:57,328 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 21872 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-12 12:36:57,329 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 12:36:57,944 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12 12:36:58,008 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2023-10-12 12:36:58,577 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-12 12:36:58,586 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:36:58,589 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 12:36:58,589 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-12 12:36:58,685 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 12:36:58,686 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1319 ms
+2023-10-12 12:36:58,854 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 12:36:58,940 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-12 12:36:58,943 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-12 12:36:59,065 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:36:59,176 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12 12:36:59,191 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-12 12:36:59,478 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@59baf2c7
+2023-10-12 12:36:59,480 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-12 12:36:59,520 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-12 12:36:59,702 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 12:37:00,226 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 12:37:00,277 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 12:37:00,569 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12 12:37:01,011 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-12 12:37:01,042 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-12 12:37:01,052 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.018 seconds (process running for 4.519)
+2023-10-12 13:33:29,152 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 13:33:29,166 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown initiated...
+2023-10-12 13:33:29,173 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] employee - Shutdown completed.
+2023-10-12 13:33:31,868 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 13:33:31,929 INFO o.s.b.StartupInfoLogger [main] Starting CrudOperationsApplication using Java 17.0.6 with PID 22312 (D:\interview\CRUDOperations\target\classes started by oliga in D:\interview\CRUDOperations)
+2023-10-12 13:33:31,932 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 13:33:32,667 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12 13:33:32,764 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2023-10-12 13:33:33,571 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-10-12 13:33:33,584 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-12 13:33:33,589 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-12 13:33:33,590 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-10-12 13:33:33,799 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-12 13:33:33,803 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1821 ms
+2023-10-12 13:33:34,066 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 13:33:34,148 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-10-12 13:33:34,151 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-12 13:33:34,311 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 13:33:34,447 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12 13:33:34,467 INFO c.z.h.HikariDataSource [main] employee - Starting...
+2023-10-12 13:33:34,822 INFO c.z.h.p.HikariPool [main] employee - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce655b9
+2023-10-12 13:33:34,824 INFO c.z.h.HikariDataSource [main] employee - Start completed.
+2023-10-12 13:33:34,868 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-12 13:33:35,061 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-12 13:33:35,626 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 13:33:35,682 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12 13:33:35,982 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12 13:33:36,384 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2023-10-12 13:33:36,423 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2023-10-12 13:33:36,433 INFO o.s.b.StartupInfoLogger [main] Started CrudOperationsApplication in 4.889 seconds (process running for 5.617)
+2023-10-12 13:33:37,659 INFO o.a.j.l.DirectJDKLog [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 13:33:37,660 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-12 13:33:37,661 INFO o.s.w.s.FrameworkServlet [http-nio-8082-exec-1] Completed initialization in 1 ms
+2023-10-12 14:29:38,077 WARN c.z.h.p.HikariPool$HouseKeeper [employee housekeeper] employee - Thread starvation or clock leap detected (housekeeper delta=16m2s523ms248µs100ns).
